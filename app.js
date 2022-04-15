@@ -7,6 +7,7 @@ const mongoose = require("mongoose");
 const session = require("express-session")
 const passport = require("passport")
 const passportLocalMongoose = require("passport-local-mongoose")
+const googleStrategy = require("passport-google-oauth20")
 // const md5 = require("md5")
 // const bcrypt = require("bcrypt");
 // const saltRounds = 10;
